@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "paligo-ftml"
+version = "0.1.0"
+description = "from Paligo CCMS to FluidTopics"
+authors = ["Laurent Dosdat <ldosdat@antidot.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.0.1"
+click-log = "^0.3.2"
+requests = "^2.26.0"
+beautifulsoup4 = "^4.9.3"
+lxml = "^4.6.3"
+
+[tool.poetry.dev-dependencies]
+black = "^21.6b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

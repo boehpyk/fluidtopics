@@ -1,0 +1,6 @@
+fastapi
+pydantic
+uvicorn
+BeautifulSoup4
+lxml
+python-multipart
